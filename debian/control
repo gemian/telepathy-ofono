@@ -16,7 +16,6 @@ Build-Depends: cmake,
                libpulse-dev [armhf arm64],
                libsqlite3-dev,
                pulseaudio,
-               qt5-default (>= 5.0),
                qtbase5-dev (>= 5.0),
                sqlite3,
                telepathy-mission-control-5
