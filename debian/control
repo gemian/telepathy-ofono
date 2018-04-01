@@ -1,7 +1,8 @@
 Source: telepathy-ofono
 Section: net
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Adam Boardman <adamboardman@gmail.com>
+XSBC-Original-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                dbus-test-runner,
@@ -13,16 +14,13 @@ Build-Depends: cmake,
                libqt5sql5-sqlite,
                libtelepathy-qt5-dev (>= 0.9.3),
                libsqlite3-dev,
-               qt5-default (>= 5.0),
                qtbase5-dev (>= 5.0),
                sqlite3,
                telepathy-mission-control-5
 Standards-Version: 3.9.4
-Homepage: https://launchpad.net/telepathy-ofono
-# If you aren't a member of ~phablet-team but need to upload packaging changes,
-# just go ahead.  ~phablet-team will notice and sync up the code again.
-Vcs-Bzr: https://code.launchpad.net/~phablet-team/telepathy-ofono/trunk
-Vcs-Browser: http://bazaar.launchpad.net/~phablet-team/telepathy-ofono/trunk/files
+Homepage: https://github.com/gemian/telepathy-ofono
+Vcs-Git: https://github.com/gemian/telepathy-ofono.git
+Vcs-Browser: https://github.com/gemian/telepathy-ofono
 
 Package: telepathy-ofono
 Architecture: any
