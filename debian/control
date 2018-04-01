@@ -3,7 +3,6 @@ Section: net
 Priority: optional
 Maintainer: Adam Boardman <adamboardman@gmail.com>
 XSBC-Original-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-
 Build-Depends: cmake,
                debhelper (>= 9),
                dbus-test-runner,
