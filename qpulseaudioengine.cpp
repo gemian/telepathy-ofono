@@ -278,6 +278,10 @@ void QPulseAudioEngineWorker::sinkInfoCallback(const pa_sink_info *info)
     AudioMode audiomodetoset;
     AudioModes modes;
 
+    if (!strcmp(info->name, "sink.fast")) {
+        return; //skip fast sink it seems erroneously created by some part of the system
+    }
+
     for (int i = 0; i < info->n_ports; i++) {
         if (!strcmp(info->ports[i]->name, "output-earpiece"))
             earpiece = info->ports[i];
